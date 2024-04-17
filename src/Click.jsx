@@ -1,12 +1,21 @@
 
-function Click (){
 
-    return(
-<div>
-    <h1>hey gueyes</h1>
-    <p>hsklvscns</p>
-    
-</div>
-    )
+function Click() {
+    let count = 0;
+
+    const handleClick = () => {
+        count++;
+        console.log('Clicked', count, 'times');
+    };
+
+    return (
+        <div>
+            <button onClick={handleClick}>click me</button>
+        </div>
+    );
 }
+
 export default Click;
+
+
+
