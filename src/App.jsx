@@ -10,13 +10,16 @@ import './App.css'
 // import Button from './Buttons/Button'
 // import Student from './Student.jsx'
 // import Greeting from './Greeting.jsx'
-import Click from './Click'
-
+// import Click from './Click'
+// import Picture from './Picture';
+// import Mycomponet from './Mycomponet';
+// import Counter from './Counter';
+import Change from './Change';
 function App() {
 
   return (
     <>
-      <Click/>
+      <Change/>
     </>
   )
 };
