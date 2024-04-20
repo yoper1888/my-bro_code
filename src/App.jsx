@@ -14,12 +14,13 @@ import './App.css'
 // import Picture from './Picture';
 // import Mycomponet from './Mycomponet';
 // import Counter from './Counter';
-import Change from './Change';
+// import Change from './Change';
+import Todolist from './Todolist'
 function App() {
 
   return (
     <>
-      <Change/>
+      <Todolist/>
     </>
   )
 };

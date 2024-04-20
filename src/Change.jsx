@@ -18,9 +18,10 @@ function Change() {
     return (
         <div>
             <h2>write:{name}</h2>
-            <textarea value={name} onChange={handelchange} /><br /><br /><br />
+           
             <h3>sex:{sex}</h3>
             <h2>age:{age}</h2>
+            <textarea value={name} onChange={handelchange} /><br /><br /><br />
             <select value={sex} onChange={handelsex}>
                 <option value="men">men</option>
                 <option value="women">women</option>
